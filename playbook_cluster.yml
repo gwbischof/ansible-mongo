@@ -2,8 +2,9 @@
 - hosts: servers
   roles:
   - mongodb_linux
-  - { role: mongodb_repository, mongodb_version: "4.4" }
+#  - { role: mongodb_repository, mongodb_version: "4.4" }
   - mongodb_install
   - mongodb_config
   - mongodb_mongod
   - mongodb_mongos
+  become: yes
