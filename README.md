@@ -13,6 +13,11 @@ The modules present in Ansible 2.9 are included in this collection and will bene
 
 As this is an independent Collection, it can be release on it's own release cadance.
 
+## Running the install
+```
+ansible-playbook -i hosts.yml playbook_cluster.yml -kK
+```
+
 ## Running the integration and unit tests
 
 Clone the collection git project. The ansible-test tool requires a specific directory setup to function correctly so please follow carefully.
@@ -77,5 +82,3 @@ Any contribution is welcome and we only ask contributors to:
 GNU General Public License v3.0 or later
 
 See LICENCING to see the full text.
-
-ansible-playbook -i hosts.yml playbook_cluster.yml -kK
