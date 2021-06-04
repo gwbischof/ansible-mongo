@@ -77,3 +77,5 @@ Any contribution is welcome and we only ask contributors to:
 GNU General Public License v3.0 or later
 
 See LICENCING to see the full text.
+
+ansible-playbook -i hosts.yml playbook_cluster.yml -kK
